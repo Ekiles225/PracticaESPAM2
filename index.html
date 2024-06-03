@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+<<<<<<< HEAD
   <div>
     <table class="table">
             <form class="d-flex" role="search">
@@ -23,5 +24,39 @@
             </tr>
     </table>
   </div>
+=======
+
+    <form id="formulario">
+        <label for="categoria">Categoría:</label>
+        <select id="categoria" name="categoria">
+          <option value="">Seleccione una categoría</option>
+          <option value="Electrónica">Electrónica</option>
+          <option value="Ropa">Ropa</option>
+          <option value="Alimentos">Alimentos</option>
+          <!-- Agrega más opciones según sea necesario -->
+        </select>
+      
+        <label for="producto">Producto:</label>
+        <input type="text" id="producto" name="producto" required>
+      
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" name="precio" required>
+      
+        <label for="fechaVencimiento">Fecha de vencimiento:</label>
+        <input type="date" id="fechaVencimiento" name="fechaVencimiento" required>
+      
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad" required>
+      
+        <button type="submit" id="agregar">Agregar</button>
+      </form>
+
+      
+
+    <tbody id="tbody">
+      <!-- Los productos se agregarán aquí -->
+    </tbody>
+
+>>>>>>> efc56b1ea6bb66e0a4faa17faed9aaecc2c525d9
 </body>
 </html>
